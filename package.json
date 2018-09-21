@@ -1,0 +1,30 @@
+{
+  "name": "aedes-tester",
+  "version": "0.0.2",
+  "description": "Aedes with mqemitter-mongodb tester",
+  "main": "index.js",
+  "files": [
+    "lib/",
+    "broker.js",
+    "asset.js",
+    "docker-broker.js",
+    "docker-asset.js",
+    "Dockerfile-asset",
+    "Dockerfile-broker",
+    "docker-compose.yml",
+    "docker-build.sh",
+    "readme.png",
+    "mqemitter-mongodb.js",
+    ".dockerignore"
+  ],
+  "engines": {
+    "node": ">= 8"
+  },
+  "dependencies": {
+    "aedes": "0.35.3",
+    "aedes-persistence-mongodb": "4.2.0",
+    "aedes-stats": "1.0.0",
+    "mqemitter-mongodb": "4.0.1",
+    "mqtt": "2.18.8"
+  }
+}

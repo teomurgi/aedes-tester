@@ -1,0 +1,9 @@
+.git
+.gitignore
+.idea
+node_modules
+reports
+*.iml
+*.log
+test
+package-lock.json

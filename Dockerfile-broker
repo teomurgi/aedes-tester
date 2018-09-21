@@ -1,0 +1,10 @@
+FROM node:8.11.3
+
+WORKDIR /app
+COPY ./ /app
+
+RUN npm install
+
+COPY mqemitter-mongodb.js /app/node_modules/mqemitter-mongodb/
+
+CMD ["node", "docker-broker.js"]
